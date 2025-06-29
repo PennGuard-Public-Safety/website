@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Security Services | Event & Patrol Coverage - PennGuard Public Safety</title>
+
+  <meta name="description"
+    content="Explore our security services including event coverage, foot patrols, and custom security plans tailored for Western Pennsylvania communities." />
+  <meta name="keywords"
+    content="event security, foot patrol, security services, custom security plan, unarmed patrol, public safety, nonprofit security, PennGuard Pennsylvania" />
+  <meta name="author" content="PennGuard Public Safety" />
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Security Services | Event & Patrol Coverage - PennGuard Public Safety" />
+  <meta property="og:description"
+    content="PennGuard offers professional event security, visible foot patrols, and tailored safety plans across Western PA. Discover how we protect your event." />
+  <meta property="og:url" content="https://pennguardps.com/services.html" />
+  <meta property="og:image" content="https://pennguardps.com/assets/images/site-og.png" />
+  <meta property="business:contact_data:locality" content="New Castle" />
+  <meta property="business:contact_data:region" content="PA" />
+  <meta property="business:contact_data:postal_code" content="16105" />
+  <meta property="business:contact_data:country_name" content="USA" />
+  <meta property="business:contact_data:email" content="hello@pennguardps.com" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900 font-sans flex flex-col min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+      <!-- Logo -->
+      <div class="flex items-center space-x-3">
+        <div class="w-40 lg:w-60 flex items-center">
+          <a href="index.html">
+            <img src="https://i.ibb.co/xSLdcCRj/Chat-GPT-Image-Jun-25-2025-09-40-49-PM-removebg-preview-1.png"
+              alt="PennGuard Logo" class="w-full h-auto" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex">
+        <ul class="flex space-x-8 text-xl text-blue-950 font-medium">
+          <li><a href="about.html" class="hover:text-blue-600 transition">About</a></li>
+          <li><a href="services.html" class="hover:text-blue-600 transition">Services</a></li>
+          <li><a href="contact.html" class="hover:text-blue-600 transition">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden text-blue-950 focus:outline-none" onclick="toggleMenu()">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+      <ul class="space-y-4 text-lg text-blue-950 font-medium">
+        <li><a href="about.html" class="block hover:text-blue-600 transition">About</a></li>
+        <li><a href="services.html" class="block hover:text-blue-600 transition">Services</a></li>
+        <li><a href="contact.html" class="block hover:text-blue-600 transition">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <!-- Title Banner -->
+  <section class="w-full bg-[#0C2D46] text-white py-16 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-5xl font-bold mb-4">Our Services</h1>
+      <p class="text-xl text-yellow-400">Reliable coverage. Professional presence. Peace of mind.</p>
+    </div>
+  </section>
+
+  <div class="flex-grow bg-gradient-to-br from-blue-50 via-white to-blue-50 px-6 py-20 space-y-20">
+
+    <!-- Cards Section -->
+    <section class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
+
+      <!-- Card 1 -->
+      <div class="bg-white rounded-3xl shadow-lg p-10 hover:shadow-xl transition-shadow duration-300">
+        <div class="text-yellow-400 text-5xl mb-6">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h2 class="text-2xl font-bold mb-4">Event Security</h2>
+        <p class="text-gray-700 leading-relaxed text-lg">
+          From small private events to large festivals, our trained officers ensure crowd safety, property protection,
+          and a secure experience for all guests.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-3xl shadow-lg p-10 hover:shadow-xl transition-shadow duration-300">
+        <div class="text-yellow-400 text-5xl mb-6">
+          <i class="fas fa-walking"></i>
+        </div>
+        <h2 class="text-2xl font-bold mb-4">Foot Patrols</h2>
+        <p class="text-gray-700 leading-relaxed text-lg">
+          Uniformed, highly visible officers patrol on foot to maintain a presence, deter crime, and assist with guest
+          concerns or emergencies.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-3xl shadow-lg p-10 hover:shadow-xl transition-shadow duration-300">
+        <div class="text-yellow-400 text-5xl mb-6">
+          <i class="fas fa-file-signature"></i>
+        </div>
+        <h2 class="text-2xl font-bold mb-4">Custom Plans</h2>
+        <p class="text-gray-700 leading-relaxed text-lg">
+          Every event is different. We work with you to build a plan that fits your location, crowd, and goals—without
+          overcharging or overstaffing.
+        </p>
+      </div>
+
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="max-w-5xl mx-auto bg-blue-900 text-white rounded-3xl p-12 shadow-lg text-center space-y-8">
+      <h2 class="text-4xl font-bold tracking-tight">Why Choose PennGuard?</h2>
+      <p class="max-w-3xl mx-auto text-lg leading-relaxed">
+        With years of experience and a commitment to safety, PennGuard provides unmatched professional security services
+        tailored to your needs.
+      </p>
+      <div class="grid md:grid-cols-3 gap-10 mt-8">
+        <div class="space-y-3">
+          <h3 class="text-2xl font-semibold">Trained Professionals</h3>
+          <p>All officers undergo rigorous training in crowd control, emergency response, and customer service.</p>
+        </div>
+        <div class="space-y-3">
+          <h3 class="text-2xl font-semibold">Community Focused</h3>
+          <p>We prioritize building trust and working closely with the communities we serve.</p>
+        </div>
+        <div class="space-y-3">
+          <h3 class="text-2xl font-semibold">Customized Security Plans</h3>
+          <p>Tailored security solutions that fit your event size, venue, and budget.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="max-w-4xl mx-auto bg-white rounded-3xl p-10 shadow-lg space-y-6">
+      <h2 class="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
+
+      <details class="border border-gray-300 rounded-lg p-5 cursor-pointer" open>
+        <summary class="font-semibold text-lg">What areas do you serve?</summary>
+        <p class="mt-3 text-gray-700 leading-relaxed">We primarily serve Western Pennsylvania and nearby communities.
+        </p>
+      </details>
+
+      <details class="border border-gray-300 rounded-lg p-5 cursor-pointer">
+        <summary class="font-semibold text-lg">Are your officers armed?</summary>
+        <p class="mt-3 text-gray-700 leading-relaxed">Our officers are unarmed by default, but some may be armed if they
+          have the proper certifications.</p>
+      </details>
+
+      <details class="border border-gray-300 rounded-lg p-5 cursor-pointer">
+        <summary class="font-semibold text-lg">How do I request a quote?</summary>
+        <p class="mt-3 text-gray-700 leading-relaxed">You can contact us via the form on this page or email us directly
+          at contact@pennguard.org.</p>
+      </details>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="max-w-4xl mx-auto bg-yellow-400 rounded-3xl p-12 shadow-lg text-blue-900 text-center space-y-6">
+      <h2 class="text-3xl font-bold">Ready to Secure Your Event?</h2>
+      <p class="max-w-xl mx-auto text-lg leading-relaxed">
+        Contact PennGuard today for a free consultation and custom security plan tailored to your needs.
+      </p>
+      <a href="contact.html"
+        class="inline-block bg-blue-900 text-yellow-400 font-bold px-10 py-4 rounded-2xl hover:bg-blue-800 transition">
+        Get Started
+      </a>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 py-8 text-sm text-gray-600">
+    <div
+      class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left space-y-6 md:space-y-0">
+
+      <!-- Left: Copyright + Service Areas -->
+      <div class="w-full md:w-1/3 md:text-left space-y-2">
+        <div>&copy; 2025 PennGuard Public Safety &mdash; All rights reserved</div>
+        <div class="text-xs text-gray-500">
+          Serving Western PA including Pittsburgh, Erie, Johnstown, Beaver County, Butler, Cranberry Township, and
+          surrounding areas.
+        </div>
+      </div>
+
+      <!-- Center: Social Icons -->
+      <div class="w-full md:w-1/3 flex justify-center space-x-6 text-lg">
+        <a href="https://www.facebook.com/pennguardps/" target="_blank" aria-label="Facebook" class="hover:text-blue-700">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+
+      <!-- Right: Navigation Links -->
+      <div class="w-full md:w-1/3 flex justify-center md:justify-end space-x-4">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="hover:underline">About</a>
+        <a href="services.html" class="hover:underline">Services</a>
+        <a href="employment.html" class="hover:underline">Jobs</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" type="text/css"
+    rel="stylesheet">
+
+  <script src="assets/js/site.js"></script>
+
+</body>
+
+</html>
